@@ -1,0 +1,75 @@
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0%;
+}
+
+h2{
+    margin-bottom: 13px;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0%;
+}
+
+input{
+    padding: 0 0;
+    padding-left: 15px;
+    width: 100%;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+#main-container{
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 1000px;
+}
+
+#main-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+#setting{
+    width: calc(50% - 75px);
+}
+
+#setting-memes{
+    margin-top: 40px;
+}
+
+#select-mem{
+    width: 100%;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    border-radius: 15px;
+}
+
+.wrapper-top-text{
+    margin-top: 40px;
+}
+
+.wrapper-bottom-text{
+    margin-top: 40px;
+}
+
+#preview{
+    width: calc(50% - 75px);
+}
+
+#preview-image{
+    margin-top: 45px;
+}
+
+.preview-image{
+    width: 100%;
+    border-radius: 15px;
+}

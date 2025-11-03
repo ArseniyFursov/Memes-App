@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="reset.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Memes-app</title>
+</head>
+<body>
+    <div id="main-container">
+        <div id="main-content">
+            <div id="setting">
+                <div class="wrapper-title">
+                    <h1 class="title">Настройки:</h1>
+                </div>
+                <div id="setting-memes">
+                    <div class="wrapper-type">
+                        <h2 class="type-meme">Мем</h2>
+                        <select id="select-mem"></select>
+                    </div>
+                    <div class="wrapper-top-text">
+                        <h2 class="text-top">Текст сверху</h2>
+                        <input type="text" placeholder="Текст сверху...">
+                    </div>
+                    <div class="wrapper-bottom-text">
+                        <h2 class="text-bottom">Текст снизу</h2>
+                        <input type="text" placeholder="Текст снизу...">
+                    </div>
+                </div>
+            </div>
+            <div id="preview">
+                <h1>Превью:</h1>
+                <div id="preview-image"></div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script/view/view.js"></script>
+    <script src="script/model/model.js"></script>
+    <script src="script/control/controller.js"></script>
+    <script src="script/api/api.js"></script>
+    <script src="script/index.js"></script>
+</body>
+</html>
