@@ -2,21 +2,11 @@ class API {
     constructor() {
         this.baseUrl = 'https://api.imgflip.com/get_memes'
     }
-
-    fetchGetMemeName() {
-        const memesName=[]
-        fetch(`${this.baseUrl}`)
-            .then(date => date.json())
-            .then(response => {
-                const memesArray = response.data.memes;
-                memesArray.forEach(meme => {
-                    memesName.push(meme.name);
-                });
+   
+    getMemes() {
+        return fetch(`${this.baseUrl}`)
+            .then(data => {
+                return data.json();
             });
-        return memesName;
-    }
-    
-    fetchMamePreview() {
-        
     }
 }
