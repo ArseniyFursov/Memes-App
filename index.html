@@ -24,25 +24,28 @@
                     </div>
                     <div class="wrapper-top-text">
                         <h2 class="text-top">Текст сверху</h2>
-                        <input type="text" placeholder="Текст сверху...">
+                        <input type="text" placeholder="Текст сверху..." class="input-top">
                     </div>
                     <div class="wrapper-bottom-text">
                         <h2 class="text-bottom">Текст снизу</h2>
-                        <input type="text" placeholder="Текст снизу...">
+                        <input type="text" placeholder="Текст снизу..." class="input-bottom">
                     </div>
                 </div>
             </div>
             <div id="preview">
                 <h1>Превью:</h1>
-                <div id="preview-image"></div>
+                <div id="preview-image">
+                    <p class="top-text"></p>
+                    <p class="bottom-text"></p>
+                </div>
             </div>
         </div>
     </div>
     
-    <script src="script/view/view.js"></script>
     <script src="script/model/model.js"></script>
-    <script src="script/control/controller.js"></script>
+    <script src="script/view/view.js"></script>
     <script src="script/api/api.js"></script>
+    <script src="script/control/controller.js"></script>
     <script src="script/index.js"></script>
 </body>
 </html>
